@@ -18,9 +18,7 @@ namespace SDETSelenium.Init
             driver.Manage().Window.Maximize();
         }
 
-        public string Title
-        {
-            get { return driver.Title; }
+        public string Title { get { return driver.Title; }
         }
 
         public void GoTo(string url)
@@ -33,10 +31,7 @@ namespace SDETSelenium.Init
             driver.Quit();
         }
 
-        public IWebDriver getDriver
-        {
-            get { return driver; }
-        }
+        public IWebDriver getDriver { get { return driver; }}
 
     }
 }
